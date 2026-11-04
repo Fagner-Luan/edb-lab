@@ -40,7 +40,7 @@ class LinkedList:
         """
 
         if not tarefa:
-            raise ValueError("Tarefa Vazia.")
+            raise ValueError("Não é possivel remover uma tarefa vazia.")
 
 
         sentinel = Node("")
@@ -76,7 +76,7 @@ class LinkedList:
         """
 
         if not tarefa:
-            raise ValueError("Tarefa Vazia.")
+            raise ValueError("Não é possível salvar uma tarefa vazia.")
 
         new_node = Node(tarefa)
         # caso a lista esteja vazia
